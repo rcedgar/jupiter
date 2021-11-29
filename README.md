@@ -1,4 +1,4 @@
-![](https://drive5.com/serratus/jupiter.png)
+![](https://drive5.com/serratus/jupiter2.png)
 
 # jupiter
 Generate "Jupiter" plots for circular genomes
