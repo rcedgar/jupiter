@@ -5,7 +5,7 @@ Generate "Jupiter" plots for circular genomes
 
 Python scripts to generate plots from [ViennaRNA](https://github.com/ViennaRNA) output.   
 
-Written in "pidgin" python with no external dependencies (no third-party libaries).   
+Written in "pidgin" python with no external dependencies (no third-party libaries), the idea here is that novice programmers will be able to understand enough of the code to hack it to suite their own needs.      
 
 Generating a plot is a two-step process. Input is a ViennaRNA postscript (ps) file. The first
 step converts ps to TSV, the second step converts TSV to SVG.
