@@ -10,13 +10,9 @@ step converts ps to TSV, the second step converts TSV to SVG.
 
 ## jupiter_ps2tsv.py
 
-Usage:
-
 `python3 jupiter_ps2tsv.py vienna.ps > vienna.tsv`
 
 ## jupiter_tsv2svg.py
-
-Usage:
 
 `python3 jupiter_tsv2svg.py vienna.tsv [configfile] > vienna.svg`
 
@@ -40,10 +36,10 @@ The optional configfile is used to set rendering style. Format is tab-separated
 text where the first field is the parameter name and subsequent fields (usually
 just one) gives the value(s). Parameters are:
 
-	line	Line width, floating point, default 1.
-	bend	Sets "bendiness" of the arcs, default 1.
-	hb  Bezier handle offset, default 1.
-	colors	heatmap colors, default 0x0000ff    0x00ff00    0xffff00    0xff0000
+`line  `	Line width, floating point, default 1.   
+`bend  `	Sets "bendiness" of the arcs, default 1.   
+`hb    `	Bezier handle offset, default 1.   
+`colors`	heatmap colors, default 0x0000ff    0x00ff00    0xffff00    0xff0000   
 
 All parameters are optional and may be specified in any order.
 
